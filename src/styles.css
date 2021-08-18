@@ -1,0 +1,60 @@
+.tx{
+    width: 60%;
+    height: 10%;
+    margin-top: 5px;
+    margin: 10px;
+    margin-right: 25px;
+    background-color: whitesmoke;
+    font-style: italic;
+}
+.rl{
+    
+    margin-top: 5%;
+   
+    
+   
+    
+}
+.ll
+{
+    padding-left: 10px;
+    padding-top: 15px;
+}
+#bnk{
+    width: 100%;
+    height: 100%;
+    
+}
+.vc{
+    background-color: rgb(131, 137, 211);
+    padding-left: 15px;
+    padding-top: 10px;
+    height: 8cm;
+    width: 8cm;
+    margin-left: 13cm;
+}
+h1{
+    text-align: center;
+    color:rgb(112, 19, 19);
+    margin-top: 30px;
+   
+    font-family: 'Times New Roman', Times, serif;
+}
+.bb
+{
+ margin-left: 70px;
+ margin-bottom: 5px;
+ margin: 5px;
+ width: 60%;
+    
+}
+h2{
+    font-style: italic;
+    font-family: monospace;
+    margin-left: 35px; ;
+}
+
+.errors{
+    color: red;
+    margin-left: 10px;
+}

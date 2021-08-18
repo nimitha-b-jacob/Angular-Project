@@ -1,0 +1,27 @@
+<h1>YES BANK</h1>
+<h5>{{aim}}</h5>
+<div class="container rl">
+    
+       
+    
+        <div class=" vc">
+                <h2>Login</h2>
+                <form [formGroup]="loginform"(ngSubmit)="login()">
+            <input type="text" placeholder="Ennter accno" [value]=accno formControlName="acno"  name="acno" class="tx"id="acn"><br>
+            <div class="errors" *ngIf="(this.loginform.get('acno').touched || this.loginform.get('acno').dirty)&& this.loginform.get('acno').errors">
+                invalid account number
+            </div>
+            <input type="password" placeholder="Ennter password" formControlName="pswd" class="tx" name="pswd" id="pwd">
+            <br>
+            <div class="errors" *ngIf="(this.loginform.get('pswd').touched || this.loginform.get('pswd').dirty)&& this.loginform.get('pswd').errors">
+                invalid password
+            </div>
+            <input type="submit" class="btn btn-success bb"  value="Login"><br>
+        </form> 
+            <a  class="link-primary ll" routerLink="register">Signup</a>
+            
+        
+        </div>
+
+
+</div>
